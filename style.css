@@ -1,0 +1,152 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 72px;
+    background: #1f2937;
+    align-items: center;
+    color: #00a5bb;
+    flex-wrap: wrap;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-basis: 500px;
+    justify-content: space-around;
+    background: #1f2937;
+    flex-wrap: wrap;
+    height: 300px;
+    color: white;
+    gap: 16px;
+}
+
+.wrap {
+    flex: 1;
+    width: 600px;
+    flex-shrink: 0;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.image {
+    background: white;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.info-heading {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb
+}
+
+.tiles{
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: ;
+}
+
+#tile {
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    justify-self: space-around;
+    margin: 16px;
+}
+
+button {
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: #3882f6;
+    color: white;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: #e5e7eb;
+}
+
+.action {
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ac {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    width: 800px;
+    height: 96px;
+    border-radius: 8px;
+}
+
+.footer {
+    height: 72px;
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
